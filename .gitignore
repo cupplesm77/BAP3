@@ -1,0 +1,6 @@
+/.quarto/
+_book/
+
+.idea/
+__pycache__/
+.ipynb_checkpoints/
