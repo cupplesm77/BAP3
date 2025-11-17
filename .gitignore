@@ -1,6 +1,44 @@
-/.quarto/
-_book/
+# OS-specific
+.DS_Store
+Thumbs.db
 
-.idea/
+# Python artifacts
 __pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual / Conda envs (only if you ever create them inside the project)
+.env/
+.venv/
+venv/
+env/
+env.bak/
+
+# Jupyter
 .ipynb_checkpoints/
+
+# IDEs / Editor configs
+.idea/
+.vscode/
+*.iml
+
+# PyCharm run configurations
+.run/
+
+# Test / coverage artifacts
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Local data (optional – see notes below)
+# If your data folder is big or contains stuff you don’t want on GitHub,
+# uncomment the next line and explicitly track only small/public files.
+# code/data/
+
+
+
